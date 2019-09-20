@@ -1,0 +1,9 @@
+In this example, the user is stored with first token given, and
+it isn't updated even when given a new token.
+
+Seems like the access token lasts for a long time, so new tokens can be ignored.
+
+I have to logout of facebook in same browser window (different tab) in order to 
+be prompted by facebook again for full credentials. Otherwise clicking on 
+Facebook login link seems to skip the full credentials prompt.
+
